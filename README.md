@@ -1,1 +1,42 @@
-# war-card-game-analysis
+# War Card Game Simulation and Analysis
+
+This repository contains a simulation and statistical analysis of the classic card game **War**, adapted for varying numbers of players. The goal of the project is to explore how the rules and number of players impact the game's duration and dynamics.
+
+---
+
+## 📚 Assumptions
+
+The simulation is based on the following rules and assumptions:
+
+1. **Card Distribution**:
+   - Each player receives an equal number of cards: `52 // n`.
+   - The total number of cards in play is `(52 // n) * n`.
+   - Any cards that cannot be evenly distributed (`52 % n`) are excluded from the game.
+   - Non-playing cards are chosen from the lowest values in the deck.
+
+2. **War Resolution**:
+   - If a war occurs and a player runs out of cards (hand and side stack), that player loses.
+   - Wars are counted as **one move**, regardless of how long they last.
+
+3. **Side Stack Mechanics**:
+   - When a player runs out of cards in their hand but has cards in the side stack, the side stack is shuffled and moved back to the hand.
+
+---
+
+## 🃏 Example: 3 Players
+
+For a game with `n = 3` players:
+- **Number of Cards per Player**:  
+  `52 // 3 = 17` cards per player.
+- **Total Cards in Play**:  
+  `17 * 3 = 51` cards.
+- **Remaining Cards (Excluded)**:  
+  `52 % 3 = 1` (the lowest card is excluded).
+- **Deck Composition**:  
+  `[2, 3, 3, 3, 3, 4, ...]`.
+
+---
+
+## 🔍 Analysis
+
+cooming soon...
