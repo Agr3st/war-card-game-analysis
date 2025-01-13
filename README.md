@@ -33,7 +33,7 @@ For a game with `n = 3` players:
 - **Remaining Cards (Excluded)**:  
   `52 % 3 = 1` (the lowest card is excluded).
 - **Deck Composition**:  
-  `[2, 3, 3, 3, 3, 4, ...]`.
+  `[2, 2, 2, 3, 3, 3, 3, 4, 4, 4, 4 ...]`.
 
 ---
 
