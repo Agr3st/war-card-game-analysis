@@ -1,6 +1,6 @@
 # War Card Game Simulation and Analysis
 
-This repository contains a simulation and statistical analysis of the classic card game **War**, adapted for varying numbers of players. The goal of the project is to explore how the rules and number of players impact the game's duration and dynamics.
+This repository contains a simulation and statistical analysis of the classic card game **War**, adapted for varying numbers of players.
 
 ---
 
