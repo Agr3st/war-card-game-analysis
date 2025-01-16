@@ -11,7 +11,6 @@ The simulation is based on the following rules and assumptions:
 1. **Card Distribution**:
    - Each player receives an equal number of cards: `52 // n`.
    - The total number of cards in play is `(52 // n) * n`.
-   - Any cards that cannot be evenly distributed (`52 % n`) are excluded from the game.
    - Non-playing cards are chosen from the lowest values in the deck.
 
 2. **War Resolution**:
@@ -30,13 +29,7 @@ For a game with `n = 3` players:
   `52 // 3 = 17` cards per player.
 - **Total Cards in Play**:  
   `17 * 3 = 51` cards.
-- **Remaining Cards (Excluded)**:  
-  `52 % 3 = 1` (the lowest card is excluded).
 - **Deck Composition**:  
   `[2, 2, 2, 3, 3, 3, 3, 4, 4, 4, 4 ...]`.
 
 ---
-
-## 🔍 Analysis
-
-cooming soon...
